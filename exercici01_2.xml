@@ -11,6 +11,6 @@
 </horari>
 
 <!-- Los errores que hemos corregido son los siguientes:
-    1.La etiqueta de cierre de Matemáticas está escrita como <classe> no estaba cerrada.
-    El atributo nom=Dimarts no tiene comillas. 
+    1.La etiqueta <classe> de cierre de Matemáticas está escrita como <classe> no estaba cerrada.
+    2.El atributo nom="Dimarts" tiene comillas.
 -->
