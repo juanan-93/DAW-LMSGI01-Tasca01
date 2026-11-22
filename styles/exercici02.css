@@ -1,0 +1,82 @@
+
+cataleg {
+    display: block;
+    font-family: Arial;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+pelicula {
+    display: block;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+}
+
+pelicula::before {
+    content: "Película " attr(id);
+    display: block;
+    color: #777777;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+titulo {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+anio, genero, duracion {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+anio::before {
+    content: "Año: ";
+    font-weight: bold;
+}
+
+genero::before {
+    content: "Género: ";
+    font-weight: bold;
+}
+
+duracion::before {
+    content: "Duración: ";
+    font-weight: bold;
+}
+
+duracion::after {
+    content: " " attr(unitat);
+}
+
+actores {
+    display: block;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+actores::before {
+    content: "Actores principales";
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+actor {
+    display: block;
+    margin-bottom: 5px;
+}
+
+nombre, apellidos {
+    display: inline;
+}

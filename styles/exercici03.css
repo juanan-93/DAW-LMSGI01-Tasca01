@@ -1,0 +1,95 @@
+
+tornei {
+    display: block;
+    font-family: Arial;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+tornei > nombre {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+temporada {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+temporada::before {
+    content: "Temporada: ";
+    font-weight: bold;
+}
+
+equipos {
+    display: block;
+}
+
+equipo {
+    display: block;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+equipo::before {
+    content: "Equipo ID: " attr(id);
+    display: block;
+    color: #777777;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+equipo > nombre {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+jugadores {
+    display: block;
+}
+
+jugadores::before {
+    content: "Jugadores";
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+jugador {
+    display: block;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+jugador::before {
+    content: "Dorsal: " attr(dorsal) " | ";
+    font-weight: bold;
+}
+
+jugador nombre {
+    display: inline;
+}
+
+categoria {
+    display: inline;
+    color: #555555;
+}
+
+categoria::before {
+    content: " | Categoría: ";
+    font-weight: bold;
+}

@@ -1,0 +1,74 @@
+
+inventario {
+    display: block;
+    font-family: Arial;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+inventario::before {
+    content: "Inventario de plantas";
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+inventario::after {
+    content: "Última actualización: " attr(actualizado);
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    margin: 15px;
+}
+
+planta {
+    display: block;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+planta::before {
+    content: "Código: " attr(id) " | Stock: " attr(stock);
+    display: block;
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+nombre {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+tipo, precio, riego {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+tipo::before {
+    content: "Tipo: ";
+    font-weight: bold;
+}
+
+precio::before {
+    content: "Precio: ";
+    font-weight: bold;
+}
+
+precio::after {
+    content: " EUR";
+}
+
+riego::before {
+    content: "Riego: ";
+    font-weight: bold;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles\exercici02.css"?>
+<cataleg>
+    <pelicula id="P01">
+        <titulo>El laberinto del fauno</titulo>
+        <anio>2006</anio>
+        <genero>Fantasía</genero>
+        <duracion unitat="min">118</duracion>
+        <actores>
+            <actor>
+                <nombre>Ivana</nombre>
+                <apellidos>Baquero</apellidos>
+            </actor>
+            <actor>
+                <nombre>Sergi</nombre>
+                <apellidos>López</apellidos>
+            </actor>
+        </actores>
+    </pelicula>
+
+    <pelicula id="P02">
+        <titulo>Sociedad de los poetas muertos</titulo>
+        <anio>1989</anio>
+        <genero>Drama</genero>
+        <duracion unitat="min">128</duracion>
+        <actores>
+            <actor>
+                <nombre>Robin</nombre>
+                <apellidos>Williams</apellidos>
+            </actor>
+            <actor>
+                <nombre>Ethan</nombre>
+                <apellidos>Hawke</apellidos>
+            </actor>
+            <actor>
+                <nombre>Robert</nombre>
+                <apellidos>Sean Leonard</apellidos>
+            </actor>
+        </actores>
+    </pelicula>
+
+    <pelicula id="P03">
+        <titulo>Interstellar</titulo>
+        <anio>2014</anio>
+        <genero>Ciencia ficción</genero>
+        <duracion unitat="min">169</duracion>
+        <actores>
+            <actor>
+                <nombre>Matthew</nombre>
+                <apellidos>McConaughey</apellidos>
+            </actor>
+            <actor>
+                <nombre>Anne</nombre>
+                <apellidos>Hathaway</apellidos>
+            </actor>
+        </actores>
+    </pelicula>
+</cataleg>
+
+
+<!-- En este ejercicio he creado un catálogo XML con tres películas, incluyendo su título, año, género, duración y actores principales.
+ He organizado los datos utilizando etiquetas y atributos, y he comprobado que el documento no contiene errores. -->

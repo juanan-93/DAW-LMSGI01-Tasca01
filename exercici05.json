@@ -1,0 +1,50 @@
+
+{
+    "enquestes": [
+        {
+            "id": 1,
+            "titulo": "Satisfacción con el centro educativo",
+            "activa": true,
+            "preguntas": [
+                {
+                    "orden": 1,
+                    "texto": "¿Cómo valoras las instalaciones del centro?",
+                    "tipo": "opcio_multiple",
+                    "opciones": [
+                        "Buenas",
+                        "Regulares",
+                        "Malas"
+                    ]
+                },
+                {
+                    "orden": 2,
+                    "texto": "¿Qué mejorarías del centro?",
+                    "tipo": "text_lliure"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titulo": "Preferencias tecnológicas",
+            "activa": false,
+            "preguntas": [
+                {
+                    "orden": 1,
+                    "texto": "¿Qué dispositivo utilizas más?",
+                    "tipo": "opcio_multiple",
+                    "opciones": [
+                        "Ordenador",
+                        "Móvil",
+                        "Tablet"
+                    ]
+                },
+                {
+                    "orden": 2,
+                    "texto": "¿Qué tecnología te gustaría aprender?",
+                    "tipo": "text_lliure"
+                }
+            ]
+        }
+    ]
+}
+

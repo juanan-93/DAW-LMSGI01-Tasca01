@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles\exercici04.css"?>
+<inventario actualizado="2025-05-01">
+    <planta id="PLT-01" stock="disponible">
+        <nombre>Monstera deliciosa</nombre>
+        <tipo>Interior</tipo>
+        <precio moneda="EUR">24.99</precio>
+        <riego>2 veces por semana</riego>
+    </planta>
+
+    <planta id="PLT-02" stock="disponible">
+        <nombre>Roser miniatura</nombre>
+        <tipo>Exterior</tipo>
+        <precio moneda="EUR">12.50</precio>
+        <riego>3 veces por semana</riego>
+    </planta>
+
+    <planta id="PLT-03" stock="bajo pedido">
+        <nombre>Cactus saguaro</nombre>
+        <tipo>Interior</tipo>
+        <precio moneda="EUR">8.75</precio>
+        <riego>1 vez por semana</riego>
+    </planta>
+</inventario>
+
+<!-- En este ejercicio he modificado un inventario XML de plantas. 
+He añadido el estado del stock y la frecuencia de riego de cada planta, he incorporado una tercera planta y he añadido la fecha de actualización al inventario. -->

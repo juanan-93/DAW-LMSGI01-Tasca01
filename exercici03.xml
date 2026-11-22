@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles\exercici03.css"?>
+<tornei>
+    <nombre>Lliga Local de Pàdel 2025</nombre>
+    <temporada>2025</temporada>
+    <equipos>
+        <equipo id="10">
+            <nombre>Raquetes Blaves</nombre>
+            <jugadores>
+                <jugador dorsal="1">
+                    <nombre>Carles Vidal</nombre>
+                    <categoria>A</categoria>
+                </jugador>
+                <jugador dorsal="2">
+                    <nombre>Marta Puig</nombre>
+                    <categoria>B</categoria>
+                </jugador>
+            </jugadores>
+        </equipo>
+
+        <equipo id="11">
+            <nombre>Smash FC</nombre>
+            <jugadores>
+                <jugador dorsal="1">
+                    <nombre>Jordi Roca</nombre>
+                    <categoria>A</categoria>
+                </jugador>
+                <jugador dorsal="2">
+                    <nombre>Laia Solà</nombre>
+                    <categoria>A</categoria>
+                </jugador>
+                <jugador dorsal="3">
+                    <nombre>Pere Mas</nombre>
+                    <categoria>B</categoria>
+                </jugador>
+            </jugadores>
+        </equipo>
+    </equipos>
+</tornei>
+<!-- En este ejercicio he convertido un documento JSON a XML, manteniendo la información de un torneo de pádel con dos equipos y sus jugadores. 
+He utilizado atributos para los identificadores y etiquetas para organizar el resto de los datos. -->

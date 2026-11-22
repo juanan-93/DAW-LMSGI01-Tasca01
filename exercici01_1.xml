@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles\exercici01_1.css"?>
+<agenda>
+    <contacte id="1">
+        <nom>Pau Ferrer</nom>
+        <telefon>600 123 456</telefon>
+        <email>pau@exemple.cat</email>
+    </contacte>
+    <contacte id="2">
+        <nom>Rita Camps</nom>
+        <telefon>677 987 654</telefon>
+        <email>rita@exemple.cat</email>
+    </contacte>
+</agenda>
+
+
+<!--Los errores que hemos corregido son los siguientes:
+    1. Se han añadido comillas al atributo id=1 de contacte.
+    2. La etiqueta <email> no está cerrada.
+    3. Se abre la etiqueta <Contacte> con mayúscula, pero se cierra con </contacte> en minúscula. 
+-->
